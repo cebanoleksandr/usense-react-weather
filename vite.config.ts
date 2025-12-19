@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/usense-react-wheather/',
+  base: '/usense-react-weather/',
   plugins: [
     react(),
     tailwindcss()
