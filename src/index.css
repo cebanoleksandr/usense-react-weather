@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+.scrollbar-md {
+  &::-webkit-scrollbar {
+    width: 8px;
+    cursor: default;
+  }
+   
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #DEDFE0;
+  }
+}
+
+.app-container {
+  transition: background-image 0.5s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.rainy-bg {
+  background-image: url('../public/images/rain.webp');
+}
+
+.snowy-bg {
+  background-image: url('../public/images/snow.avif');
+}
+
+.cloudy-bg {
+  background-image: url('../public/images/cloud.avif');
+}
+
+.sunny-bg {
+  background-image: url('../public/images/sunny.webp');
+}
+
+.default-bg { 
+  background-image: linear-gradient(to bottom, #bdc3c7, #097ff5);
+}
